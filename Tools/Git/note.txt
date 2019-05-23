@@ -41,3 +41,37 @@ collaborate (see also: git help workflows)										协作（另请参阅：git 
 'git help -a' and 'git help -g' list available subcommands and some				'git help -a'和'git help -g'列出了可用的子命令和一些
 concept guides. See 'git help <command>' or 'git help <concept>'				概念指南。 请参阅'git help <command>'或'git help <concept>'
 to read about a specific subcommand or concept.									阅读有关特定子命令或概念的内容。
+
+用户名和邮箱地址的作用：
+	用户名和邮箱地址相当于你的身份标识，是本地Git客户端的一个变量，不会随着Git库而改变。
+	每次commit都会用用户名和邮箱记录。
+	GitHub的contributions跟你的邮箱是有关联的。
+
+查看自己的用户名和邮箱地址：
+$ git config user.name
+$ git config user.email
+
+修改自己的用户名和邮箱地址：
+$ git config --global user.name "MaxsGao"
+$ git config --global user.email "gaowang073000@163.com"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
